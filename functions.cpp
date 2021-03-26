@@ -11,7 +11,9 @@
 #include <string>
 using namespace std;
 
-/*****This function determines whether user input height and width are equal like a square.*****/
+/**************************************************************************************
+*This function determines whether user input height and width are equal like a square.
+***************************************************************************************/
 bool IsItSquare (double& height, double& width){
     
     if (height == width){
@@ -24,13 +26,19 @@ bool IsItSquare (double& height, double& width){
     }    
 }
 
-/*****This function makes unequal height and width even.*****/
+
+/**************************************************************************************
+*This function makes unequal height and width even.
+**************************************************************************************/
 void MakeSquare(double& height, double& width){
     height = (height + width)/2;
     width = height;   
 }
 
-/*****This function computes the perimeter.*****/
+
+/**************************************************************************************
+*This function computes the perimeter.
+**************************************************************************************/
 double CalcPerimeter(double& height, double& width){
     double totalPerimeter;
     
@@ -39,12 +47,18 @@ double CalcPerimeter(double& height, double& width){
     return totalPerimeter;
 }
 
-/*****This function prints out the result.*****/
+
+/**************************************************************************************
+*This function prints out the result.
+**************************************************************************************/
 void PrintPerimeter(double height, double width){
     
     cout << "A rectangle with height " << height << " and width " << width << " has a perimeter of " << CalcPerimeter(height, width) << "." <<endl;
 }
 
+/**************************************************************************************
+*This is Main
+**************************************************************************************/
 int main()
 {
     //declare variables 
