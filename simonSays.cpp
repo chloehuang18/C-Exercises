@@ -4,7 +4,8 @@
 *.  Created: Mar 30, 2021
 *.  Estimate time: 0.2 Hours
 *.  All rights reserved.
-*   Description: Use 
+*   Description: Simon Says is a memory game. Create a for loop that compares the two strings starting from index 0. 
+*   For each match, add one point to userScore.
 *
 ******************************************/
 #include <iostream>
@@ -18,8 +19,11 @@ int main() {
    int i;
 
    userScore = 0;
-
+   
+   //Get input from the user
+   cout << "Simon Says" << endl;
    cin >> simonPattern;
+   cout << "You Says" << endl;
    cin >> userPattern;
    
    //This loop compares two strings and count common characters 
@@ -30,9 +34,7 @@ int main() {
             }   
    }
    
-   //Out put 
-   cout << "Simon Says: " << simonPattern << endl;
-   cout << "You Say: " << userPattern << endl;
+   //Output 
    cout << "Your Score: " << userScore << endl;
 
    return 0;
