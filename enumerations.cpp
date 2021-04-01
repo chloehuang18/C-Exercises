@@ -17,9 +17,12 @@ int main() {
    if (userInput == ADD_QUARTER) {
       totalDeposit = totalDeposit + 25;
    }
-
-   /* Your solution goes here  */
-
+   else if(userInput == ADD_DIME){
+      totalDeposit = totalDeposit + 10;
+   }
+   else if(userInput == ADD_NICKEL){
+      totalDeposit = totalDeposit + 5;
+   }
    else {
       cout << "Invalid coin selection." << endl;
    }
