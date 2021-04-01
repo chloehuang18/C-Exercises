@@ -1,4 +1,12 @@
-
+/*******************************************
+*.  Copyright (c) <2021> 
+*.  Author: Chloe Huang
+*.  Created: Mar 30, 2021
+*.  Estimate time: 0.1 Hours
+*.  
+*   Description: Use enums to give users options and output the total amounts of coins 
+*
+******************************************/
 // An enumeration type declares a name for a new type and possible values for that type.
 
 #include <iostream>
